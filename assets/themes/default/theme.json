@@ -1,0 +1,47 @@
+{
+  "id": "default-meadow",
+  "channels": [
+    { "id": "sky", "label": "Sky", "costPerStep": 2 },
+    { "id": "mist", "label": "Mist", "costPerStep": 2 },
+    { "id": "river", "label": "River", "costPerStep": 3 },
+    { "id": "flora", "label": "Plants", "costPerStep": 2 },
+    { "id": "fauna", "label": "Birds", "costPerStep": 3 }
+  ],
+  "layers": [
+    {
+      "id": "sky",
+      "source": "svg",
+      "channelId": "sky",
+      "parallax": { "x": 6, "y": 0 },
+      "bind": { "preset": "fadeIn", "from": 0.4, "to": 1 }
+    },
+    {
+      "id": "mist",
+      "source": "svg",
+      "channelId": "mist",
+      "parallax": { "x": 12, "y": 2 },
+      "bind": { "preset": "fadeIn", "from": 0.9, "to": 0 }
+    },
+    {
+      "id": "river",
+      "source": "svg",
+      "channelId": "river",
+      "parallax": { "x": 4, "y": 0 },
+      "bind": { "preset": "fadeIn", "from": 0.2, "to": 0.95 }
+    },
+    {
+      "id": "flora",
+      "source": "svg",
+      "channelId": "flora",
+      "parallax": { "x": 10, "y": 4 },
+      "bind": { "preset": "fadeIn", "from": 0.15, "to": 1 }
+    },
+    {
+      "id": "fauna",
+      "source": "svg",
+      "channelId": "fauna",
+      "parallax": { "x": 16, "y": 6 },
+      "bind": { "preset": "fadeIn", "from": 0, "to": 1 }
+    }
+  ]
+}

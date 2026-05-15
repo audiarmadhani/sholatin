@@ -1,0 +1,23 @@
+[
+  { "id": "terrain", "label": "Terrain", "channels": { "flora": 0.06 } },
+  { "id": "mountains_1", "label": "Mountains (far)", "channels": { "mist": 0.05, "sky": 0.03 } },
+  { "id": "mountains_2", "label": "Mountains (mid)", "channels": { "mist": 0.06, "sky": 0.04 } },
+  { "id": "mountains_3", "label": "Mountains (detail)", "channels": { "mist": 0.07, "sky": 0.05 } },
+  { "id": "mosque", "label": "Mosque", "channels": { "mist": 0.04, "flora": 0.05 } },
+  { "id": "river", "label": "River", "channels": { "river": 0.18 } },
+  { "id": "bridge", "label": "Bridge", "channels": { "river": 0.08 } },
+  { "id": "grass_1", "label": "Grass (wave 1)", "channels": { "flora": 0.04 } },
+  { "id": "grass_2", "label": "Grass (wave 2)", "channels": { "flora": 0.04 } },
+  { "id": "grass_3", "label": "Grass (wave 3)", "channels": { "flora": 0.04 } },
+  { "id": "grass_4", "label": "Grass (wave 4)", "channels": { "flora": 0.04 } },
+  { "id": "trees_1", "label": "Trees (3 · wave 1)", "channels": { "flora": 0.045 } },
+  { "id": "trees_2", "label": "Trees (3 · wave 2)", "channels": { "flora": 0.045 } },
+  { "id": "trees_3", "label": "Trees (3 · wave 3)", "channels": { "flora": 0.045 } },
+  { "id": "trees_4", "label": "Trees (3 · wave 4)", "channels": { "flora": 0.045 } },
+  { "id": "stones_1", "label": "Stones (wave 1)", "channels": { "flora": 0.05, "river": 0.03 } },
+  { "id": "stones_2", "label": "Stones (wave 2)", "channels": { "flora": 0.05, "river": 0.04 } },
+  { "id": "birds_1", "label": "Birds (wave 1)", "channels": { "fauna": 0.22 } },
+  { "id": "birds_2", "label": "Birds (wave 2)", "channels": { "fauna": 0.25 } },
+  { "id": "clouds_1", "label": "Clouds (wave 1)", "channels": { "sky": 0.12 } },
+  { "id": "clouds_2", "label": "Clouds (wave 2)", "channels": { "sky": 0.14 } }
+]
