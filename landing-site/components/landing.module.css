@@ -301,6 +301,35 @@
   background: var(--sh-surface-muted);
 }
 
+.previewSection {
+  padding-top: calc(var(--sh-space-xl) * 1.25);
+  padding-bottom: calc(var(--sh-space-xl) * 1.5);
+}
+
+.previewLead {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.previewFigure {
+  margin: 0;
+  padding: 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.previewImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--sh-radius-xl);
+  box-shadow:
+    0 24px 64px rgba(0, 0, 0, 0.35),
+    0 0 0 1px var(--sh-border);
+}
+
 .steps {
   display: grid;
   gap: var(--sh-space-lg);

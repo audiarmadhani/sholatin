@@ -1,6 +1,7 @@
 'use client'
 
 import { ReactLenis, useLenis } from 'lenis/react'
+import Image from 'next/image'
 import { useRef } from 'react'
 
 import { MarketingThemeProvider, useMarketingTheme } from '@/components/MarketingThemeProvider'
@@ -46,6 +47,9 @@ function LandingInner() {
           <span className={styles.logo}>Sholatin</span>
           <div className={styles.navGrow} aria-hidden />
           <div className={styles.navLinks}>
+            <a href="#preview" className={styles.navLink}>
+              App
+            </a>
             <a href="#features" className={styles.navLink}>
               Features
             </a>
@@ -124,6 +128,28 @@ function LandingInner() {
           </div>
         </div>
       </header>
+
+      <section id="preview" className={`${styles.section} ${styles.previewSection}`}>
+        <div className={styles.sectionInnerWide}>
+          <p className={styles.sectionKicker}>In the app</p>
+          <h2 className={styles.sectionTitle}>Home, scene, and settings</h2>
+          <p className={`${styles.sectionLead} ${styles.previewLead}`}>
+            Track the day from one focus card, watch your landscape unlock through the month, and
+            tune location, calculation method, and reminders when you need to.
+          </p>
+          <figure className={styles.previewFigure}>
+            <Image
+              src="/app-screens.png"
+              alt="Sholatin on iPhone: home screen with living landscape and Log Fajr, Scene and badges unlock list, and Settings for location and prayer times"
+              width={1024}
+              height={682}
+              className={styles.previewImage}
+              sizes="(max-width: 900px) 100vw, 1024px"
+              priority
+            />
+          </figure>
+        </div>
+      </section>
 
       <section id="features" className={styles.section}>
         <div className={styles.sectionInner}>
